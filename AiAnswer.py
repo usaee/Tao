@@ -2,7 +2,6 @@
 import time
 import sys
 import random
-import emotionValues as feel
 
 def response(s):
 	print()
