@@ -51,7 +51,7 @@ Goodbye sir or madam, and may you farewell in all of your journeys!
 	elif v == 'a':
 		v = "add image"
 		print()
-		hear.stimAction(v)
+		hear.stimAction(v,0)
 		print()
 		console.clear()
 		strt()
@@ -59,7 +59,7 @@ Goodbye sir or madam, and may you farewell in all of your journeys!
 	elif v == 'b':
 		v = "add term"
 		print()
-		hear.stimAction(v)
+		hear.stimAction(v,0)
 		print()
 		console.clear()
 		strt()
@@ -67,7 +67,7 @@ Goodbye sir or madam, and may you farewell in all of your journeys!
 	elif v == 'c':
 		v = "add item"
 		print()
-		hear.stimAction(v)
+		hear.stimAction(v,0)
 		print()
 		console.clear()
 		strt()
@@ -76,7 +76,7 @@ Goodbye sir or madam, and may you farewell in all of your journeys!
 		v2 = input("\tImage name: ")
 		v = "show image " + v2
 		print()
-		hear.stimAction(v)
+		hear.stimAction(v,0)
 		print()
 
 	elif v == 'e':
